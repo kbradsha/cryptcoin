@@ -615,7 +615,7 @@ inline void SetThreadPriority(int nPriority)
 }
 #else
 
-#define THREAD_PRIORITY_LOdrm          PRIO_MAX
+#define THREAD_PRIORITY_LOdrm          0
 #define THREAD_PRIORITY_BELOW_NORMAL    2
 #define THREAD_PRIORITY_NORMAL          0
 #define THREAD_PRIORITY_ABOVE_NORMAL    0

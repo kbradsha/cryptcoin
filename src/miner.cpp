@@ -11,7 +11,7 @@
 
 using namespace std;
 
-#define THREAD_PRIORITY_LOdrm          PRIO_MAX
+#define THREAD_PRIORITY_LOdrm          0
 
 //////////////////////////////////////////////////////////////////////////////
 //
