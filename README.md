@@ -6,7 +6,7 @@ P2P Port: 27114
 
 Algorithm: X11 POW/POS
 
-Short: CRY
+Short: CRYPT
 
 Total coin: 11 Million cap.
 Block time: 1.5 minute
