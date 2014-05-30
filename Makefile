@@ -91,7 +91,7 @@ Makefile: cryptcoin-qt.pro  ../Qt/4.8.5/mkspecs/default/qmake.conf ../Qt/4.8.5/m
 		c:/Qt/4.8.5/lib/qtmain.prl \
 		c:/Qt/4.8.5/lib/QtGui.prl \
 		c:/Qt/4.8.5/lib/QtCore.prl
-	$(QMAKE) USE_QRCODE=1 USE_UPNP=1 USE_IPV6=1 -o Makefile wildwestcoin-qt.pro
+	$(QMAKE) USE_QRCODE=1 USE_UPNP=1 USE_IPV6=1 -o Makefile cryptcoin-qt.pro
 ..\Qt\4.8.5\mkspecs\features\device_config.prf:
 ..\Qt\4.8.5\mkspecs\qconfig.pri:
 ..\Qt\4.8.5\mkspecs\features\qt_functions.prf:
